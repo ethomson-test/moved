@@ -3,4 +3,4 @@ name: 'increase count'
 description: 'Increase the count of a file'
 runs:
   using: 'docker'
-  image: 'Dockerfile'
+  image: 'docker://ethomson/containeraction'
