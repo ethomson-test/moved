@@ -1,0 +1,6 @@
+# action.yml
+name: 'increase count'
+description: 'Increase the count of a file'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
