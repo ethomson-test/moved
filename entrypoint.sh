@@ -9,6 +9,8 @@ set -euo pipefail
 read STATIC </tmp/static
 test "${STATIC}" = "static_data"
 
+echo "modified" >/tmp/static
+
 # update a count of a file in the runner workdir
 # this ensures that we can mutate files in the
 # workdir and they are persisted back to the runner
